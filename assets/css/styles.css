@@ -406,7 +406,7 @@ img {
   .home__social {
     display: flex;
     flex-flow: row;
-    margin-top: -50px;
+    margin-top: 275px;
     margin-left: 60px;
   }
   .home__social-icon {
