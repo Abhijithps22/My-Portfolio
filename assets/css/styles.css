@@ -221,9 +221,9 @@ img {
 }
 .home__img {
   position: absolute;
-  margin-left: -50px;
+  right: 0;
   top: 50%;
-  padding: 1em;
+  padding: 3em;
 }
 .home__img__items {
   border-radius: 30px;
