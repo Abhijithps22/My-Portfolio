@@ -218,7 +218,7 @@ img {
 .home__social-icon {
   width: -moz-max-content;
   width: max-content;
-  margin-bottom: var(--mb-2);
+  margin-top: 0 !important;
   font-size: 1.5rem;
   color: var(--second-color);
 }
