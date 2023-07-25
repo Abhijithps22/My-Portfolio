@@ -222,7 +222,11 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 45%;
+  padding: 3.5em;
+}
+.home__img__items {
+  border-radius: 30px;
 }
 
 /*BUTTONS*/
