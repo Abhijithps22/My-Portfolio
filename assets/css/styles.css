@@ -221,7 +221,8 @@ img {
 }
 .home__img {
   position: absolute;
-  top: 60%;
+  margin-left: -50px;
+  top: 50%;
   padding: 1em;
 }
 .home__img__items {
