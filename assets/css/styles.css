@@ -222,7 +222,7 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  top: 45%;
+  top: 48%;
   padding: 3.5em;
 }
 .home__img__items {
@@ -255,7 +255,6 @@ img {
 }
 .about__img img {
   width: 200px;
-  border-radius: 0.5rem;
 }
 
 /* ===== SKILLS =====*/
@@ -416,8 +415,6 @@ img {
   .home__social-icon {
     margin: 10px;
   }
-  .home__img {
-  }
 }
 @media screen and (min-width: 768px) {
   body {
@@ -455,9 +452,11 @@ img {
 
   .home {
     height: 100vh;
+    margin-top: 10px;
   }
   .home__data {
     align-self: flex-end;
+    margin-top: 20%;
   }
   .home__social {
     padding-top: 0;
@@ -466,14 +465,17 @@ img {
     align-self: flex-end;
   }
   .home__social-icon {
-    margin-bottom: 0;
+    margin-bottom: 120px;
     margin-right: var(--mb-4);
   }
   .home__img {
     width: 457px;
-    bottom: 15%;
+    top: 10%;
   }
-
+  .about section {
+    position: relative;
+    top: 0%;
+  }
   .about__container,
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
@@ -481,7 +483,7 @@ img {
     text-align: initial;
   }
   .about__img img {
-    width: 300px;
+    width: 480px;
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
