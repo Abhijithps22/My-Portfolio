@@ -220,12 +220,9 @@ img {
   color: var(--first-color);
 }
 .home__img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  top: 50%;
-  padding: 3em;
+  top: 55%;
+  padding: 3.3em;
 }
 .home__img__items {
   border-radius: 30px;
