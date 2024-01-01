@@ -349,15 +349,24 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  height: 260px;
 }
 .work__img img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
   transition: 1s;
   cursor: pointer;
 }
 .work__img img:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
+  border-radius: 50%;
 }
-
+.work__nav__items {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
@@ -408,14 +417,24 @@ img {
   .home__social {
     display: flex;
     flex-flow: row;
-
-    margin-left: 60px;
+    justify-content: center;
   }
   .home__social-icon {
     margin: 10px;
   }
   .section-title {
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  .home {
+    height: auto;
+  }
+  .home__img {
+    display: none;
+    visibility: hidden;
+  }
+  .section {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -491,6 +510,12 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
+  }
+  .work__img {
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 230px;
   }
   .contact__form {
     width: 360px;
